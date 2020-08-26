@@ -1,0 +1,22 @@
+{
+	"title":"Just Checking",
+	"name":"laravel-vue-spa",
+	"email":"bilal_punjabi@hotmail.com",
+	"detail":"just checking...",
+	"framework":"laravel",
+	"laravel":{
+		"database":{
+			"hostname":"localhost",
+			"database":"la_checking_laravel",
+			"username":"la_user_checking_laravel",
+			"password":"la_pass_checking_laravel"
+			},
+		"commands":[
+			"php artisan serve",
+			"php artisan migrate:fresh",
+			"php artisan migrate:reset",
+			"php artisan migrate:rollback",
+			"php artisan migrate:status"
+		]
+	}
+}
